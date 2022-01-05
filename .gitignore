@@ -7,3 +7,13 @@
 ## 01_exercise
 **/azure-tf*
 **/azure-pulumi*
+
+## 02_exercise
+**/*/tmp
+
+## azure settings per directory
+**/.azure
+
+# python
+**/.venv
+**/__pycache__
