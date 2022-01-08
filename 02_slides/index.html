@@ -12,7 +12,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -53,6 +53,8 @@
 					<script type="text/template">
 ### Ś<span style="text-transform: lowercase;">rodowisko</span>
 
+Rekomendacja:
+
 - Ubuntu 20.04 albo inna dystrybucja / *nix - MacOS
 - Dual-boot?
 - Lang: Python, Golang, dotnet core, ...
@@ -67,7 +69,7 @@
 - Mierzymy się z zadaniem samemu - timebox
 - Pytamy / prosimy o pomoc.
 - Zrobiłam / Zrobiłem - warto pokazać
-- Kopiuj&Wklej zakazane (chyba, że wykładowca powie inaczej)
+- Bez Kopiuj&Wklej (chyba, że wykładowca powie inaczej)
 					</script>
 				</section>
 
@@ -109,7 +111,7 @@ O najważniejszym (**why**): biznes
 					<script type="text/template">
 ### W<span style="text-transform: lowercase;">ażne</span>
 
-- Zacznij od "najpierw Tak", wysłuchać, wspomóc pomysłodwacę w wyrażeniu swojej opinii
+- Zacznij od "najpierw Tak",<br />wysłuchać, wspomóc w wyrażeniu pomysłu
 - Risk / Reward
 - Spisać argumenty za i przeciw
 					</script>
@@ -117,6 +119,19 @@ O najważniejszym (**why**): biznes
 				<!-- https://niksilver.com/2017/10/24/take-more-risk/ -->
 				<!-- https://niksilver.com/2016/02/02/risk-is-variable/ -->
 				<!-- https://niksilver.com/2019/09/10/rethinking-risk-appetite/ -->
+
+				<section data-markdown>
+					<script type="text/template">
+### W<span style="text-transform: lowercase;">ażne</span>
+
+- Make it real.<br />Ideas are cheap ([heroku](https://gist.github.com/adamwiggins/5687294))
+- Strategie: v1/v2 lub PoC, ...
+					</script>
+				</section>
+				<!--
+					http://boringtechnology.club/
+				-->
+
 
 				<section data-markdown>
 					<script type="text/template">
@@ -132,7 +147,7 @@ O najważniejszym (**why**): biznes
 					<script type="text/template">
 ### Z<span style="text-transform: lowercase;">łożoność setupu</span>
 
-- Szybkość startu nowej osoby (time to first commit)
+- Szybkość startu nowej osoby<br />(time to first commit)
 - Efektywność Onboarding procesu
 					</script>
 				</section>
@@ -164,7 +179,7 @@ Możliwe rozwiązania:
 
 - Warstwy abstrakcji
 - "Magiczne" narzędzia
-- Zapomniane
+- Zapomniane warstwy
 					</script>
 				</section>
 
@@ -172,7 +187,7 @@ Możliwe rozwiązania:
 					<script type="text/template">
 ### Z<span style="text-transform: lowercase;">łożoność setupu</span>
 
-- Lokalne środowisko dew?
+- Lokalne środowisko deweloperskie
 </script>
 </section>
 
@@ -180,8 +195,8 @@ Możliwe rozwiązania:
 					<script type="text/template">
 ### Z<span style="text-transform: lowercase;">łożoność setupu</span>
 
-- Onboarding process oraz Engineering Guide
-- Różne konwencje
+- Onboarding process<br />oraz Engineering Guide
+- Brak wspólnych konwencji
 					</script>
 				</section>
 
@@ -197,7 +212,7 @@ Możliwe rozwiązania:
 
 				<section data-markdown>
 					<script type="text/template">
-## O<span style="text-transform: lowercase;">statnie zacjęcia</span>
+## O<span style="text-transform: lowercase;">statnie zajęcia</span>
 
 					</script>
 				</section>
@@ -208,10 +223,9 @@ Możliwe rozwiązania:
 
 1. Zawsze ssh z kluczami
 2. Przez bastion
-3. [AWS Systems Manager Session Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html) / [AWS EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html) lub alternatywa
+3. [AWS SSM](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html) / [AWS EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html)
 					</script>
 				</section>
-
 
 				<section data-markdown>
 					<script type="text/template">
@@ -220,147 +234,319 @@ Możliwe rozwiązania:
 					</script>
 				</section>
 
-				<!-- section>
-					<h3>H<span style="text-transform: lowercase;">igh performance teams</span></h3>
-					<div class="container">
-						<div class="row">
-							<div class='col-md-6'>
-								<p>(Tech) metrics:</p>
-								<ul>
-									<li>Lead Time</li>
-									<li>Deployment frequency</li>
-									<li>Mean time to Recovery</li>
-									<li>Change Fail Percent</li>
-								</ul>
-							</div>
-							<div class='col-md-6'>
-								<img width="100%" style="object-fit: fill;" src="img/laptop_book_accelarate.png" />
-							</div>
-						</div>
-					</div>
-				</section -->
-
-				<!-- section>
-					<h3>C<span style="text-transform: lowercase;">hoosing tech</span></h3>
-					<div class="container">
-						<div class="row">
-							<div class='col-md-6'>
-								<p>Other factors:</p>
-								<ul>
-									<li>New tech for people to feel that they learn sth new</li>
-									<li>What the tech background is</li>
-								</ul>
-							</div>
-							<div class='col-md-6'>
-								<img width="100%" style="object-fit: fill;" src="img/laptop_book_accelarate.png" />
-							</div>
-						</div>
-					</div>
-				</section -->
-
-				<!-- section data-markdown>
+				<section data-markdown>
 					<script type="text/template">
-### B<span style="text-transform: lowercase;">uy &gt; build</span>
+### K<span style="text-transform: lowercase;">orzyści</span>
 
-Kandydaci:
-
-- Wysokie TCO, nie jest to częścią naszego produktu
-- Skomplikowany i złożony problem np., bazy danych
-- Narzędzia
+1. Brak maszyn
+2. Pay-as-you-go
 					</script>
-				</section -->
+				</section>
 
-				<!-- section data-markdown>
+				<section data-markdown>
 					<script type="text/template">
-### O<span style="text-transform: lowercase;">czekiwania wobec dev</span>
+### O<span style="text-transform: lowercase;">graniczenia</span>
 
-- Samo programowanie nie wystarcza!
+1. Cold-start (np., dla [AWSa](https://filia-aleks.medium.com/aws-lambda-battle-2021-performance-comparison-for-all-languages-c1b441005fd1))
+2. Ograniczenia czasowe i zasobów ([limits](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html))
+3. Trudniej debugować w produkcji
+
+<!-- https://aws.amazon.com/blogs/compute/operating-lambda-performance-optimization-part-1/ -->
+<!-- https://mikhail.io/serverless/coldstarts/aws/ -->
+<!-- https://mikhail.io/serverless/coldstarts/aws/languages/ -->
+<!-- https://github.com/alexcasalboni/aws-lambda-power-tuning -->
 					</script>
-				</section -->
+				</section>
 
-				<!-- section data-markdown>
+				<section data-markdown>
 					<script type="text/template">
-### O<span style="text-transform: lowercase;">czekiwania wobec dev</span>
+### T<span style="text-transform: lowercase;">echnologie</span>
 
-Świadomość operacyjnej strony oprogramowania:
-
-- monitoring - [RED](https://www.infoworld.com/article/3638693/the-red-method-a-new-strategy-for-monitoring-microservices.html), [4 Golden Signals](https://sre.google/sre-book/monitoring-distributed-systems/#xref_monitoring_golden-signals), [USE](https://www.brendangregg.com/usemethod.html)
-- logging - structured<br /> np., [Python](https://www.structlog.org/en/stable/), [Golang](https://github.com/uber-go/zap), [dotnet core](https://serilog.net/), java
+1. AWS Lambda
+2. Azure Functions i Google Cloud Functions<!-- https://firebase.google.com/products/function -->
+3. CloudNative: [KNative](https://knative.dev/)
+4. @Edge, np., Cloudflare czy AWS Lambda@Edge
 					</script>
-				</section -->
+				</section>
 
-				<!-- section data-markdown>
+				<section data-markdown>
 					<script type="text/template">
-### O<span style="text-transform: lowercase;">czekiwania wobec dev</span>
+### AWS<span style="text-transform: lowercase;"></span>
 
-Świadomość operacyjnej strony oprogramowania:
-
-- tracing
-- probes
-					</script>
-				</section -->
-
-				<!-- section data-markdown>
-					<script type="text/template">
-### O<span style="text-transform: lowercase;">czekiwania wobec dev</span>
-
-<img src="img/observability/observability_capex_vs_opex_from_golang_prod_blog.png" width="80%" />
-
-<small><a href="https://peter.bourgon.org/go-for-industrial-programming/">Go for Industrial Programming by Peter Bourgon</a></small>
-					</script>
-				</section -->
-
-				<!-- section data-markdown>
-					<script type="text/template">
-### O<span style="text-transform: lowercase;">czekiwania wobec dev</span>
-
-Warto obejrzeć:
-
-[Engineering You • Martin Thompson](https://www.youtube.com/watch?v=S4LzzuMTqjs)
+<img src="https://d1.awsstatic.com/serverless/New-API-GW-Diagram.c9fc9835d2a9aa00ef90d0ddc4c6402a2536de0d.png" width="80%" />
 
 					</script>
-				</section -->
+				</section>
 
-				<!-- section data-markdown>
+				<section data-markdown>
 					<script type="text/template">
-### O<span style="text-transform: lowercase;">czekiwania wobec dev</span>
+### AWS<span style="text-transform: lowercase;"></span>
 
-Świadomość operacyjnej strony oprogramowania:
+Wybrane z [AWS](https://aws.amazon.com/serverless/getting-started):
 
-- you build it, you run it
-- devs, ops na OnCall
+1. AWS Lambda
+2. AWS Fargate
+3. AWS API Gateway
+4. AWS SNS, SQS, Dynamodb, EventBus
+5. AWS Step Functions
+6. Logs (AWS CloudWatch) and tracing (AWS X-Ray)
+
+<!-- https://aws.amazon.com/blogs/compute/icymi-serverless-q4-2021/ -->
 					</script>
-			</section -->
+				</section>
 
-				<!-- section data-markdown>
+				<section data-markdown>
 					<script type="text/template">
-### R<span style="text-transform: lowercase;">etry and timeouts</span>
+### AWS<span style="text-transform: lowercase;"></span>
 
-- timeouts
-- Retries
-- Circute breaker
+Narzędzia:
 
-```python
-requests.get('https://github.com', timeout=0.001)
-```
+1. [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started.html)
+2. [Serverless](https://www.serverless.com/)
+3. AWS Cloudformations, AWS CDK lub Terraform dla zasobów wspierających
+4. [localstack](https://github.com/localstack/localstack)
 					</script>
-				</section -->
-				<!-- https://github.com/wojciech11/se_http_api_testing_quickstart -->
-				<!-- https://ably.com/blog/8-fallacies-of-distributed-computing -->
-				<!-- https://martinfowler.com/bliki/CircuitBreaker.html -->
-				<!-- https://blog.codecentric.de/en/2019/06/resilience-design-patterns-retry-fallback-timeout-circuit-breaker/ -->
+				</section>
 
-				<!-- section data-background="img/eff_dev_books.png" data-background-repeat="" data-background-size="100%" data-background-color="white">
-				</section -->
-
-				<!-- section data-markdown>
+				<section data-markdown>
 					<script type="text/template">
+### A<span style="text-transform: lowercase;">zure</span>
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/51P4cUtnqUL.jpg" width="30%"/>
-
-<p><span>Practice of Cloud System Administration, The: DevOps and SRE Practices for Web Services, Volume 2</span></p>
+<img src="https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/serverless/_images/serverless-web-app.png" width="80%" />
 					</script>
-				</section -->
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### A<span style="text-transform: lowercase;">zure</span>
+
+<img src="https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/media/scalable-ecommerce-web-app.png" width="80%" />
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### A<span style="text-transform: lowercase;">zure</span>
+
+Wybrane z [Azure](https://azure.microsoft.com/en-us/solutions/serverless/):
+
+- Azure Functions
+- Azure API Management
+- Azure EventGrid
+- Azure SQL Datavase (serverless)
+- Observability: Azure Monitor
+
+<!-- https://azure.microsoft.com/en-us/solutions/serverless/#solutions -->
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### A<span style="text-transform: lowercase;">zure</span>
+
+Wybrane z [Azure](https://azure.microsoft.com/en-us/solutions/serverless/):
+
+- Azure Functions
+- Azure API Management
+- Azure EventGrid
+- Azure SQL Datavase (serverless)
+- Observability: Azure Monitor
+
+<!-- https://azure.microsoft.com/en-us/solutions/serverless/#solutions -->
+					</script>
+				</section>
+
+
+				<section data-markdown>
+					<script type="text/template">
+### A<span style="text-transform: lowercase;">zure</span>
+
+Narzędzia:
+
+- Azure Functions Core Tools i Azure CLI
+- serverless
+- terraform/terragrunt dla zasobów wspierających
+
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### C<span style="text-transform: lowercase;">loud</span>N<span style="text-transform: lowercase;">ative - knative</span>
+
+<img src="https://knative.dev/blog/images/audience.png" width="70%" />
+
+<p><small><a href="https://knative.dev/blog/articles/build-deploy-manage-modern-serverless-workloads-using-knative-on-kubernetes/">źródło</a></small></p>
+					</script>
+				</section>
+
+
+				<section data-markdown>
+					<script type="text/template">
+### C<span style="text-transform: lowercase;">loud</span>N<span style="text-transform: lowercase;">ative - knative</span>
+
+- onPremise lub self-hosted (oferowane przez GCP)
+- pozwala dynamicznie zarządzać infrastrukturą dla zmiennych workloadów
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+## P<span style="text-transform: lowercase;">aa</span>S
+
+<img src="https://heroku-blog-files.s3.amazonaws.com/posts/1599780272-future-gnar-diagram.png" width="70%" />
+
+
+<p><small><a href="https://blog.heroku.com/transform-a-heavy-industry">źródło</a></small></p>
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### K<span style="text-transform: lowercase;">orzyści</span>
+
+- Szybkość
+- Prostota
+- Nie trzeba myśleć o infrastrukturze (do czasu)
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### W<span style="text-transform: lowercase;">ady</span>
+
+- koszt
+- ograniczenia
+- "za dużo magi" szczególnie przy większej skali
+					</script>
+				</section>
+
+
+				<section data-markdown>
+					<script type="text/template">
+### N<span style="text-transform: lowercase;">ie tak popularne</span>
+
+Wypierane z jeden strony<br />przez CaaS (Container-as-a-Service)<br />lub wewnętrzne implementacje platformy,<br />
+a z drugiej przez serverless.
+
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### S<span style="text-transform: lowercase;">cenariusze</span>
+
+1. MVP
+2. W mniejszej skali 
+3. Platforma pluginów dla SaaS
+4. Aplikacje skupione na web frontendzie, patrz sukces [netlify](https://www.netlify.com/)
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### P<span style="text-transform: lowercase;">latformy</span>
+
+1. Heroku
+2. Google App Engine
+3. Netlify
+4. Azure App Service
+5. Część oferty AWS, można traktować jak PaaS
+					</script>
+				</section>
+
+				<section data-markdown data-background-color="white">
+					<script type="text/template">
+## K<span style="text-transform: lowercase;">ubernetes</span>
+
+<img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" width="30%" />
+					</script>
+				</section>
+
+				<section data-markdown data-background-color="white">
+					<script type="text/template">
+## D<span style="text-transform: lowercase;">ocker</span>
+
+<img src="https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png" width="30%" />
+					</script>
+				</section>
+
+				<section data-markdown data-background-color="white">
+					<script type="text/template">
+### D<span style="text-transform: lowercase;">ocker</span>
+
+Problemy:
+
+- "u mnie działa"
+- dependency hell
+- jak to uruchomić :/?
+					</script>
+				</section>
+
+				<section data-markdown data-background-color="white">
+					<script type="text/template">
+### D<span style="text-transform: lowercase;">ependences</span>
+
+- A -> B -> C 1.0 and A -> C 2.0 💀
+- biblioteki applikacji
+- biblioteki natywne
+					</script>
+				</section>
+
+				<section data-markdown data-background-color="white">
+					<script type="text/template">
+### P<span style="text-transform: lowercase;">akiety</span>
+
+- deployment z githuba
+- pip/poetry
+- deb/rpm
+- fat packages (apt, runtime, ...), e.g., dh-virtualenv
+					</script>
+				</section>
+
+				<section data-markdown data-background-color="white">
+					<script type="text/template">
+### P<span style="text-transform: lowercase;">akiet: Wirtualne Maszyny</span>
+
+- Plusy: ultimate fat packages<br />
+  wszystko od bibliotek applikacji do natywnych
+- Minusy: duży rozmiar, wolno się budują
+
+<p><small>Immutable infrastructure</small></p>
+					</script>
+				</section>
+
+				<section data-markdown data-background-color="white">
+					<script type="text/template">
+### P<span style="text-transform: lowercase;">akiet: docker</span>
+
+- coś jak VM ale szybkie w tworzeniu i deploymentu
+- filozofia Dockera - ma działać w domyślnych ustawieniach
+- lekkość procesu
+					</script>
+				</section>
+				<!--
+				https://github.com/wojciech11/se_perf_testing_basics
+				-->
+
+				<section data-markdown>
+					<script type="text/template">
+### K<span style="text-transform: lowercase;">ubernetes</span>
+
+- traktowanie naszego klastra jak czarną skrzynkę
+- jeden język dla opisywania jak nasza aplikacja jest uruchomiona
+- batteries included
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+### K<span style="text-transform: lowercase;">ubernetes</span>
+
+- [Kubernetes workshop](https://github.com/wojciech12/workshop_kubernetes_and_cloudnative)
+					</script>
+				</section>
+
 
 				<!--
 				12factor apps
@@ -374,18 +560,6 @@ requests.get('https://github.com', timeout=0.001)
 					</script>
 				</section -->
 
-
-
-				<!-- section data-markdown>
-					<script type="text/template">
-### N<span style="text-transform: lowercase;">arzędzia</span>
-
-- docker-compose
-- [localstack](https://github.com/localstack/localstack)
-					</script>
-				</section -->
-
-
 				<section>
 					<h4>D<span style="text-transform: lowercase;">ziękuje za uwagę</span></h4>
 					<img src="img/laptop_book_accelarate.png" width="80%">
@@ -394,100 +568,35 @@ requests.get('https://github.com', timeout=0.001)
 
 				<section data-markdown>
 					<script type="text/template">
-				## B<span style="text-transform: lowercase;">ackup slides</span>
+## B<span style="text-transform: lowercase;">ackup slides</span>
 
 					</script>
 				</section>
 
 				<section data-markdown>
 						<script type="text/template">
-# A<span style="text-transform: lowercase;">zure Batch</span>
+### N<span style="text-transform: lowercase;">arzędzia</span>
 
+Misc:
+
+- [statuscake](https://www.statuscake.com) / [pingdom](https://www.pingdom.com)
+- [locust](https://locust.io)
+- [zimwiki](https://zim-wiki.org/)
 					</script>
 				</section>
-
-				<section data-markdown>
-						<script type="text/template">
-### A<span style="text-transform: lowercase;">zure Batch</span>
-
-Zestaw narzędzi wiersza poleceń Azure CLI udostępnia polecenie az batch do pracy z usługą Azure Batch.
-Pozwala ono na zarządzanie kontem, pulami węzłów oraz zadaniami.
-
-						</script>
-				</section>
-
-
-				<section data-markdown>
-						<script type="text/template">
-### A<span style="text-transform: lowercase;">zure Batch</span>
-
-```bash
-az batch account create \
-  --resource-group <nazwa-grupy-zasobów> \
-  --name <nazwa-konta> \
-  --location <region>
-```
-						</script>
-				</section>
-
-				<section data-markdown>
-						<script type="text/template">
-### A<span style="text-transform: lowercase;">zure Batch</span>
-
-```bash
-az batch account login \
-  --resource-group <nazwa-grupy-zasobów> \
-  --name <nazwa-konta> \
-  --shared-key-auth
-```
-						</script>
-				</section>
-
-
-				<section data-markdown>
-						<script type="text/template">
-### A<span style="text-transform: lowercase;">zure Batch</span>
-
-```bash
-az batch pool create \
-  --id <id-puli> \
-  --vm-size <rozmiar-węzła > \
-  --target-dedicated-nodes <liczba-węzłów> \
-  --image <obraz-maszyny> \
-  --node-agent-sku-id "batch.node.ubuntu 18.04"
-```
-						</script>
-				</section>
-
-				<section data-markdown>
-						<script type="text/template">
-### A<span style="text-transform: lowercase;">zure Batch</span>
-
-```bash
-az batch task create \
-  --task-id <id-zadania> \
-  --job-id <id-zadania-nadrzędnego> \
-  --command-line <zdanie-do-wykonania>
-```
-						</script>
-				</section>
+				<!-- 
+					https://backstage.io
+				-->
 
 				<!-- section data-markdown>
-					<script type="text/template">
-### T<span style="text-transform: lowercase;">erraform</span>
+						<script type="text/template">
+### X<span style="text-transform: lowercase;">YZ</span>
 
-- Infra-as-a-Code
-					</script>
+```bash
+
+```
+						</script>
 				</section -->
-
-				<!-- section data-markdown>
-					<script type="text/template">
-### T<span style="text-transform: lowercase;">erraform</span>
-
-					</script>
-				</section -->
-
-
 			</div>
 		</div>
 

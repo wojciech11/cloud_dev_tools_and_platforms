@@ -27,12 +27,12 @@ Trochę powtórki z ostatnich zajęć, jak logujemy się za pomocą kluczy ssh.
 
    ```bash
    az vm create \
-     --location <region> \
      --resource-group <nazwa-grupy-zasobów> \
      --name <nazwa-maszyny> \
-     --size <rozmiar-maszyny> \
-     --image <obraz-systemu> \
+     --size "Standard_B1ls" \
+     --image "Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:latest"  \
      --public-ip-sku Standard \
+     --admin-username ubuntu \
      --ssh-key-value ~/.ssh/wsb_id_rsa.pub
    ```
 
@@ -73,10 +73,26 @@ Trochę powtórki z ostatnich zajęć, jak logujemy się za pomocą kluczy ssh.
    # teraz możemy się spokojnie zalogować
    ssh ubuntu@<IP_ADDRESS>
    ```
+ 
+6. Co jeśli chcemy mieć dostęp z lokalnej maszyny do usługi na VM? Z pomocą przychodzi `ssh -L`, aka ssh tunneling.
 
-6. Dostarczyciele chmury oferują lepszą alternatywę do logowania się, na przykład dla AWS, [AWS EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html) lub, zdecydowanie bardziej bezpieczny, [AWS SSM](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html).
+7. Zainstaluj `nginx` na VM, sprawdź czy lokalnie na VM działa za pomocą `curl`.
 
-7. Usuń maszynę wirtualną z której korzystaliśmy w tym ćwiczeniu.
+8. Teraz udostępnijmy serwis działający na porcie *80* (VM) na lokalnym porcie *8080*:
+
+   ```bash
+   ssh -L 8080:127.0.0.1:80 ubuntu@<IP_ADDRESS>
+   ```
+
+   ```bash
+   # sprawdzmy na naszym
+   # komputerze
+   curl 127.0.0.1:8080
+   ```
+
+9. Dostarczyciele chmury oferują lepszą alternatywę do logowania się, na przykład dla AWS, [AWS EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html) lub, zdecydowanie bardziej bezpieczny, [AWS SSM](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html).
+
+10. Usuń maszynę wirtualną z której korzystaliśmy w tym ćwiczeniu.
 
 ## Serverless - Azure Functions
 
@@ -93,7 +109,8 @@ func --version
 1. Jak to na każdego dobrego dewelopera Python, zaczynamy od wirtualnego środowiska:
 
    ```bash
-   python -m venv .venv
+   python3 -m venv .venv
+   source .venv/bin/activate
    ```
 
 2. Utwórz twój pierwszy projekt:
@@ -191,7 +208,7 @@ Zauważ, mógłbyś utworzyć powyższe zasoby posługując się [terraformem](h
 
 <!-- https://itnext.io/introduction-to-azure-functions-using-terraform-eca009ddf437 -->
 
-### Publikowanie Funkccji
+### Publikowanie Funkcji
 
 Teraz czas, aby naszą funkcję opublikować:
 
@@ -347,6 +364,7 @@ User -> |   API   | -> |  AWS   |
 
    # deploy aplikacji
    az webapp up --sku B1 \
+     --plan eastus \
      --resource-group ${AZ_RESOURCE_GROUP} \
      --name <app-name>
 

@@ -28,7 +28,13 @@ Upewnijcie się, że skasowaliście wszystkie zasoby chmurowe na końcu każdych
    - [terraform](https://www.terraform.io/)
    - [pulumi](https://www.pulumi.com/)
 
-2. PaaS i Serverless: ćwiczenia 4h / wykład 4h
+2. Serverless i PaaS: [ćwiczenia 4h](02_exercise/manual.md) / wykład 4h - TBA
+
+   - Azure Functions
+   - Framework Serverless
+   - AWS Lambda
+   - Azure App Service
+   - Heroku
 
 3. Kubernetes z Azure EKS i Autoscale: [ćwiczenia 4h](03_exercise/manual.md) / wykład 4h
 
