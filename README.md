@@ -28,7 +28,7 @@ Upewnijcie się, że skasowaliście wszystkie zasoby chmurowe na końcu każdych
    - [terraform](https://www.terraform.io/)
    - [pulumi](https://www.pulumi.com/)
 
-2. Serverless i PaaS: [ćwiczenia 4h](02_exercise/manual.md) / wykład 4h - TBA
+2. Serverless i PaaS: [ćwiczenia 4h](02_exercise/manual.md) / [wykład 4h](02_slides/index.pdf)
 
    - Azure Functions
    - Framework Serverless
@@ -36,9 +36,18 @@ Upewnijcie się, że skasowaliście wszystkie zasoby chmurowe na końcu każdych
    - Azure App Service
    - Heroku
 
-3. Kubernetes z Azure EKS i Autoscale: [ćwiczenia 4h](03_exercise/manual.md) / wykład 4h
+3. Kubernetes z Azure EKS i Autoscale: [ćwiczenia 4h](03_exercise/manual.md) / [wykład 4h](03_slides/index.pdf)(WIP) 
 
-4. Bazy danych, zarządzanie sekretami i monitoring
+   - Szybkie przypomnienie z Dockera
+   - Podstawy Kubernetesa z [k3d](https://k3d.io/)
+   - Azure Kubernetes Service (AKS)
+   - Azure Container Service
+
+4. Bazy danych, zarządzanie sekretami i monitoring: ćwiczenia 4h / wykład 4h
+
+   - sekrety - Azure Key Vault
+   - Azure Database and Azure Cosmos DB
+   - bezpieczeństwo 
 
 ## Materiały dodatkowe
 
