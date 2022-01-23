@@ -36,14 +36,14 @@ Upewnijcie się, że skasowaliście wszystkie zasoby chmurowe na końcu każdych
    - Azure App Service
    - Heroku
 
-3. Kubernetes z Azure EKS i Autoscale: [ćwiczenia 4h](03_exercise/manual.md) / [wykład 4h](03_slides/index.pdf)(WIP) 
+3. Kubernetes z Azure EKS i Autoscale: [ćwiczenia 4h](03_exercise/manual.md) / [wykład 4h](03_slides/index.pdf)
 
    - Szybkie przypomnienie z Dockera
    - Podstawy Kubernetesa z [k3d](https://k3d.io/)
    - Azure Kubernetes Service (AKS)
    - Azure Container Service
 
-4. Bazy danych, zarządzanie sekretami i monitoring: ćwiczenia 4h / wykład 4h
+4. Bazy danych, zarządzanie sekretami i monitoring: [ćwiczenia 4h](04_exercise/manual.md) (WIP) / wykład 4h
 
    - sekrety - Azure Key Vault
    - Azure Database and Azure Cosmos DB
