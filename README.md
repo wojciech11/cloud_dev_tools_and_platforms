@@ -43,7 +43,7 @@ Upewnijcie się, że skasowaliście wszystkie zasoby chmurowe na końcu każdych
    - Azure Kubernetes Service (AKS)
    - Azure Container Service
 
-4. Bazy danych, zarządzanie sekretami i monitoring: [ćwiczenia 4h](04_exercise/manual.md) (WIP) / wykład 4h
+4. Bazy danych, zarządzanie sekretami i monitoring: [ćwiczenia 4h](04_exercise/manual.md) / [wykład 4h](04_slides/index.pdf)
 
    - sekrety - Azure Key Vault
    - Azure Database and Azure Cosmos DB
@@ -53,3 +53,4 @@ Upewnijcie się, że skasowaliście wszystkie zasoby chmurowe na końcu każdych
 
 - [AWS vs GCP vs Azure by Google](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison)
 - https://missing.csail.mit.edu/
+- [Better bash scripting in 15 minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
