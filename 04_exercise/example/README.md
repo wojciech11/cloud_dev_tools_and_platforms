@@ -10,8 +10,6 @@ Cel / Opis - 2 zdania
 
 ```bash
 export X=
-
-make xyz
 ```
 
 ## Development
@@ -19,6 +17,11 @@ make xyz
 Przygotowanie lokalnego środowiska.
 
 ```bash
+make xyz
+```
+
+```bash
+curl 
 ```
 
 ## More examples
